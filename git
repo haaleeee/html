@@ -1,4 +1,9 @@
 #!/bin/bash
+mv index.html index.html.bak
+git add .
+git commit -m "html"
+git push
+mv index.html.bak index.html
 git add .
 git commit -m "html"
 git push

@@ -1,5 +1,6 @@
 #!/bin/bash
-mv index.html index.html.bak
+cp index.html index.html.bak
+rm index.html
 git add .
 git commit -m "html"
 git push

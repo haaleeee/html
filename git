@@ -1,14 +1,4 @@
 #!/bin/bash
-html=$(cat index.html)
-bak=$(cat index.html.bak)
-if [[ $bak == "" ]]; then
-	mv index.html index.html.bak
-	git add .
-	git commit -m "html"
-	git push
-else
-	mv index.html.bak index.html
-	git add .
-	git commit -m "html"
-	git push
-fi
+git add .
+git commit -m "html"
+git push

@@ -2,11 +2,18 @@
 <html>
 <head>
 <style>
+h2 {
+  text-align: center;
+  color: orange;
+  font-size: 160%;
+}
+
 p {
   text-align: center;
   color: red;
   font-size: 160%;
 }
+
 div {text-align: center;}
 
 #img {  
@@ -22,7 +29,9 @@ div {text-align: center;}
 </head>
 <body>
 <body>
-<h2>ALL ABOUT ME</h2>
+<div>
+<h2>ALL ABOUT MYSELF</h2>
+</div>
 <p>My Name is John Gil M. Ayangco 20 years old i currently living in Millar Residence SPS7 San Bartolome Novaliches Quezon City i studied at Dr.Carlos S. Lanting College with a Course of Bachelor of Science in Maritime Transportation or BSMT </p>
 <div id="outer">
 <div id="img">

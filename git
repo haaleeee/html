@@ -1,5 +1,5 @@
 #!/bin/bash
-cp index.html index.html.bak
+cat index.html > index.html.bak
 rm index.html
 git add .
 git commit -m "html"

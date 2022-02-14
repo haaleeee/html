@@ -3,6 +3,7 @@
 <head>
 <style>
 p {text-align: center;}
+div {text-align: center;}
 
 #img {  
   border: 1px solid black;

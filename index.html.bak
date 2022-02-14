@@ -5,15 +5,15 @@
 p {text-align: center;}
 div {text-align: center;}
 
-#img {
-  display: table;
-  margin: 0 auto;
+#img {  
   border: 1px solid black;
 }
 
 #outer {
   border: 1px solid red;
-  width:100%
+  width:100%;
+  display: flex;
+  justify-content: center;
 }
 </style>
 </head>

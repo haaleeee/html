@@ -1,5 +1,19 @@
 #!/bin/bash
-mv index.html.bak index.html
-git add .
-git commit -m "html"
-git push
+html=$(cat index.html)
+bak=$(cat index.html.bak)
+if [[ $html == "" ]]; then
+	echo ""
+else
+	mv index.html index.html.bak
+	git add .
+	git commit -m "html"
+	git push
+fi
+if [[ $bak == "" ]]; then
+	echo ""
+else
+	mv index.html.bak index.html
+	git add .
+	git commit -m "html"
+	git push
+fi
